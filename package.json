@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js --ignore client",
     "start": "node src/index.js",
-    "build": "npm run --prefix ../client build"
+    "build": "npm --prefix ../client install && npm run --prefix ../client build"
   },
   "keywords": [],
   "author": "",

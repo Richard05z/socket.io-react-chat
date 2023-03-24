@@ -34,6 +34,6 @@ io.on("connection", (socket) => {
 });
 
 app.use(express.static(join(__dirname, "../../client/dist")));
-console.log();
+console.log(); // Archivos estáticos que se van a  servir
 
 export default server;
